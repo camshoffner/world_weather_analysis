@@ -73,7 +73,7 @@ for index, row in hotel_df.iterrows():
 
 
 6. Plot hotel and weather information on gmaps. 
-![Screenshot of map and info box](./WeatherPy_vacation_map.png)
+![Screenshot of map and info box](./vacation_search/WeatherPy_vacation_map.png)
 7. Pick four locations to create an itinerary. 
 ```
 vacation_start = vacation_df.loc[vacation_df["City"]=="Lasa"]
@@ -104,11 +104,11 @@ vacation_itinerary = gmaps.directions_layer(
 fig.add_layer(vacation_itinerary)
 fig
 ```
-![Directions for stops in Italy](./WeatherPy_travel_map.png)
+![Directions for stops in Italy](./vacation_itinerary/WeatherPy_travel_map.png)
 
 9. Plot results for itinerary
 
-![Four stops in Italy](./WeatherPy_travel_map_markers.png)
+![Four stops in Italy](./vacation_itinerary/WeatherPy_travel_map_markers.png)
 
 ## Conclusion
 Including these new features in PlanMyTrip is going to be great! The new itinerary is well received and the client is looking forward to their next vacation. 
